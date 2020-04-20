@@ -76,6 +76,7 @@ void openRun()
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   Keyboard.releaseAll();
+  delay(debounceTime);
 }
 
 void openFileExplorer()
@@ -109,7 +110,7 @@ void sleepPC()
 {
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('x');
-  Keyboard.releaseAll();chrome.exe
+  Keyboard.releaseAll();
   delay(debounceTime);
   Keyboard.press('u');
   Keyboard.releaseAll();
@@ -118,7 +119,7 @@ void sleepPC()
   Keyboard.releaseAll();
   delay(debounceTime);
 }
-chrome.exe
+
 void openChrome()
 {
   openRun();
